@@ -1112,7 +1112,7 @@
 
             <div class="row mx-0 py-5 w-100">
                 <div class="col-sm-6">
-                    <div class="card bg-white card-hover" id="card1">
+                    <div class="card bg-white card-hover card1" id="card1">
                         <div class="card-body text-dark p-0">
                             <h2 class="mb-0 pt-5 px-3">Introducing WebContainers:</h2>
                             <h2 class="font-weight-normal pb-5 px-3">Run Node.js in your browser</h2>
@@ -1138,7 +1138,7 @@
             </div>
 
             <div class="row mx-0 py-5 w-100">
-                <div class="col-sm-6">
+                <div class="col-sm-6 my-auto">
                     <p class="mb-0 text-color">Unlike StackBlitz, <span class="font-weight-bolder text-white">legacy
                             online IDEs</span> run on remote servers and <span
                             class="font-weight-bolder text-white">stream</span></p>
@@ -1158,19 +1158,97 @@
                             debugging benefits</span> (see below).</p>
                 </div>
                 <div class="col-sm-6">
-                    <table>
+                    <table class="table text-color text-center w-100 justify-content-center align-items-center">
                         <thead>
-                            <tr>
-                                <th></th>
-                                <th>StackBlitz</th>
-                                <th></th>
-                            </tr>
+                            <th class="border-top-0 border-bottom-0">
+                            <td class="border-top-0 border-bottom-0 py-4"><span
+                                    class="font-weight-bolder text-white">StackBlitz</span></td>
+                            <td class="border-top-0 py-4">Legacy Online IDE's</td>
+                            </th>
                         </thead>
-                        <tbody>
+                        <tbody class="table-bordered border-left-0">
                             <tr>
-                                <td>1</td>
-                                <td>2</td>
-                                <td>3</td>
+                                <td class="border-left-0 py-4 text-left"><span
+                                        class="font-weight-bolder text-white mt-4">Boot Time</span></td>
+                                <td class="py-4">
+                                    <span class="font-weight-bolder text-white">
+                                        <p class="font-weight-bolder text-success" style="font-size: 20px;"><i
+                                                class="fa-solid fa-check"></i></p>
+                                        milliseconds
+                                    </span>
+                                </td>
+                                <td class="py-4">
+                                    <span class="font-weight-bolder text-white">
+                                        <p class="font-weight-bolder text-danger" style="font-size: 20px;"><i
+                                                class="fa-solid fa-xmark"></i></p>
+                                    </span>Minutes
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="border-left-0 py-4 text-left"><span
+                                        class="font-weight-bolder text-white">Zero network <br> latency</span></td>
+                                <td class="py-4">
+                                    <span class="font-weight-bolder text-white">
+                                        <p class="font-weight-bolder text-success" style="font-size: 20px;"><i
+                                                class="fa-solid fa-check"></i></p>
+                                    </span>
+                                </td>
+                                <td class="py-4">
+                                    <span class="font-weight-bolder text-white">
+                                        <p class="font-weight-bolder text-danger" style="font-size: 20px;"><i
+                                                class="fa-solid fa-xmark"></i></p>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="border-left-0 py-4 text-left"><span
+                                        class="font-weight-bolder text-white">Work Offline</span></td>
+                                <td class="py-4">
+                                    <span class="font-weight-bolder text-white">
+                                        <p class="font-weight-bolder text-success" style="font-size: 20px;"><i
+                                                class="fa-solid fa-check"></i></p>
+                                    </span>
+                                </td>
+                                <td class="py-4">
+                                    <span class="font-weight-bolder text-white">
+                                        <p class="font-weight-bolder text-danger" style="font-size: 20px;"><i
+                                                class="fa-solid fa-xmark"></i></p>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="border-left-0 py-4 text-left"><span
+                                        class="font-weight-bolder text-white">Easily debug<br> broken containers </span>
+                                </td>
+                                <td class="py-4">
+                                    <span class="font-weight-bolder text-white">
+                                        <p class="font-weight-bolder text-success" style="font-size: 20px;"><i
+                                                class="fa-solid fa-check"></i></p>
+                                    </span>
+                                </td>
+                                <td class="py-4">
+                                    <span class="font-weight-bolder text-white">
+                                        <p class="font-weight-bolder text-danger" style="font-size: 20px;"><i
+                                                class="fa-solid fa-xmark"></i></p>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="border-left-0 py-4 text-left"><span
+                                        class="font-weight-bolder text-white">Reset broken <br> containers</span></td>
+                                <td class="py-4">
+                                    <span class="font-weight-bolder text-white">
+                                        <p class="font-weight-bolder text-success" style="font-size: 20px;"><i
+                                                class="fa-solid fa-check"></i></p>
+                                        Page refresh
+                                    </span>
+                                </td>
+                                <td class="py-4">
+                                    <span class="font-weight-bolder text-white">
+                                        <p class="font-weight-bolder text-danger" style="font-size: 20px;"><i
+                                                class="fa-solid fa-xmark"></i></p>
+                                    </span>Not possible
+                                </td>
                             </tr>
                         </tbody>
                     </table>
@@ -1178,6 +1256,195 @@
             </div>
 
         </div>
+
+
+        <!-- TOM PRESTON-WERNER section -->
+        <div class="row mx-0 bg-dark py-5 text-white">
+            <div class="col-sm-12 py-5 text-center">
+                <h1 class="font-weight-normal">“StackBlitz is the first online IDE <span
+                        class="font-weight-bolder">whose compute</span></h1>
+                <h1 class="font-weight-normal"><span class="font-weight-bolder">model makes sense to me.”</span>
+            </div>
+            <div class="col-sm-12 pb-5 d-flex justify-content-center flex-nowrap">
+                <div>
+                    <img src="pictures/p1.png" class="rounded-circle mr-2" width="50px">
+                    <img src="pictures/git3.svg" class="rounded-circle" width="50px" height="50px">
+                </div>
+                <div class="ml-4">
+                    <h6>TOM PRESTON-WERNER</h6>
+                    <p class="mb-0">founder of Github & Investor in StackBlitz</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Use the web to build the web. -->
+        <div class="row mx-0 py-5 text-white">
+            <div class="row mx-0 py-5 w-100">
+                <div class="col-sm-12 px-5">
+                    <h1 class="font-weight-normal py-5 text-center">Use the web
+                        <span class="font-weight-bolder text-info">boot
+                            in milliseconds.</span>
+                    </h1>
+                </div>
+            </div>
+
+            <div class="row mx-0 w-100">
+                <div class="col-sm-6 my-auto px-5 my-5">
+                    <h1 class="display-4 mb-0">Seamless Node.js</h1>
+                    <h1 class="display-4 mb-0">debugging with Chrome</h1>
+                    <h1 class="display-4 pb-4">Dev Tools</h1>
+
+                    <p class="text-color mb-0">Debug backend applications just as easily as frontend, using the</p>
+                    <p class="text-color mb-0">powerful tools <span class="font-weight-bolder text-white-50">already
+                            shipped in your browser.</span></p>
+                </div>
+                <div class="col-sm-6" style="overflow: hidden;">
+                    <img src="pictures/10.webp" class="img-position" width="100%">
+                </div>
+            </div>
+
+            <div class="row mx-0 py-5 w-100 my-5">
+                <div class="col-sm-6" style="overflow: hidden;">
+                    <img src="pictures/11.webp" class="img-position-left" width="100%">
+                </div>
+
+                <div class="col-sm-6 my-auto">
+                    <h1 class="display-4 pb-4">Run the backend in the frontend</h1>
+
+                    <p class="mb-0 text-color">If it can run on Node.js, it can run on StackBlitz WebContainers,</p>
+                    <p class="mb-0 text-color">including backend functionality and libraries, meaning you can <span
+                            class="font-weight-bolder text-white-50">run</span></p>
+                    <p class="mb-0 text-color"><span class="font-weight-bolder text-white-50">servers. In your
+                            browser.</span></p>
+                </div>
+            </div>
+
+            <div class="row mx-0 w-100">
+                <div class="col-sm-6 my-auto px-5">
+                    <h1 class="display-4 pb-4">Fresh, fast environments on every page load.</h1>
+
+                    <p class="text-color mb-0">Reinstalling node_modules is as simple as refreshing the page,
+                    </p>
+                    <p class="mb-0 text-color">and since
+                        StackBlitz package installations are orders of</p>
+
+                    <p class="text-color mb-0">magnitude faster than local, <span
+                            class="font-weight-bolder text-white-50">installing packages
+                            is now a trivial </span></p>
+
+                    <p class="text-color"><span class="font-weight-bolder text-white-50">endeavour.</span></p>
+                </div>
+                <div class="col-sm-6" style="overflow: hidden;">
+                    <img src="pictures/13.webp" class="img-position" width="100%">
+                </div>
+            </div>
+
+            <div class="row mx-0 py-5 w-100 my-5">
+                <div class="col-sm-6" style="overflow: hidden;">
+                    <img src="pictures/14.webp" class="img-position-left" width="100%">
+                </div>
+
+                <div class="col-sm-6 my-auto">
+                    <h1 class="display-4 pb-4">Zero latency. Work offline.</h1>
+
+                    <p class="mb-0 text-color">No external servers to connect to means no delays between your</p>
+                    <p class="mb-0 text-color">keystrokes and editor, and<span class="font-weight-bolder text-white-50">
+                            an internet connection is not required.</span></p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- RICH HARRIS section -->
+        <div class="row mx-0 bg-dark py-5 text-white">
+            <div class="col-sm-12 py-5 text-center">
+                <h1 class="font-weight-normal">“It's surely only a matter of time before locally</span></h1>
+                <h1 class="font-weight-normal">installed IDEs <span class="font-weight-bolder">go the way of the
+                        Walkman.”</span>
+            </div>
+            <div class="col-sm-12 pb-5 d-flex justify-content-center flex-nowrap">
+                <div>
+                    <img src="pictures/p1.png" class="rounded-circle mr-2" width="50px">
+                    <img src="pictures/ss.svg" class="rounded-circle" width="50px" height="50px">
+                </div>
+                <div class="ml-4">
+                    <h6>RICH HARRIS</h6>
+                    <p class="mb-0">Svelte & SvelteKit creator</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- INVESTED IN THE FUTURE -->
+        <div class="row mx-0 py-5 text-white w-100">
+            <div class="row mx-0 py-5 w-100">
+                <div class="col-sm-12 pl-5">
+                    <img src="pictures/hourse.png" width="90px">
+                    <h6 class="text-info">INVESTED IN THE FUTURE</h6>
+                </div>
+                <div class="col-sm-12 px-5">
+                    <h1 class="display-3 font-weight-bolder py-5">This is just the beginning.</h1>
+                    <p class="text-color mb-0">We're working with and <span
+                            class="text-white-50 font-weight-bolder">invested in the fastest growing open source
+                            projects</span></p>
+                    <p class="text-color mb-0">to make instant, secure-by-default <span
+                            class="text-white-50 font-weight-bolder">browser-based computing</span> accessible to</p>
+                    <p class="mb-0 text-color">everyone.</p>
+                </div>
+            </div>
+
+            <div class="row mx-0 py-5 w-100">
+                <div class="col-sm-6">
+                    <div class="card bg-white card-hover card1" id="card2">
+                        <div class="card-body text-dark p-0">
+                            <h2 class="mb-0 pt-5 px-3">Introducing WebContainers:</h2>
+                            <h2 class="font-weight-normal pb-5 px-3">Run Node.js in your browser</h2>
+                            <p class="mt-5 mb-0 py-4 px-3" id="readthe1">READ THE RELEASE</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 my-auto">
+                    <div class="card bg-white card-hover card1" id="card3">
+                        <div class="card-body text-dark p-0">
+                            <h2 class="mb-0 pt-5 px-3">Introducing WebContainers:</h2>
+                            <h2 class="font-weight-normal pb-5 px-3">Run Node.js in your browser</h2>
+                            <p class="mt-5 mb-0 py-4 px-3" id="readthe2">READ THE RELEASE</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ILYA GRIGORIK section -->
+        <div class="row mx-0 bg-white py-5">
+            <div class="col-sm-12 py-5 text-center">
+                <h1 class="font-weight-normal"><span class="font-weight-bolder">“StackBlitz unlocks a true one-click startup</span></h1>
+                <h1 class="font-weight-normal">experience with the full stack running in the</h1>
+                <h1 class="font-weight-normal">browser — <span class="font-weight-bolder">it's a game-changer.”</span></h1>
+            </div>
+            <div class="col-sm-12 pb-5 d-flex justify-content-center flex-nowrap">
+                <div>
+                    <img src="pictures/p1.png" class="rounded-circle mr-2" width="50px">
+                    <img src="pictures/sho.svg" class="rounded" width="50px">
+                </div>
+                <div class="ml-4">
+                    <h6>ILYA GRIGORIK</h6>
+                    <p class="mb-0">Principal Engineer at Shopify</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- See for yourself. section -->
+        <div class="row mx-0 background-gradient text-white py-5">
+            <div class="col-sm-12 py-5 text-center">
+                <h1 class="font-weight-normal"><span class="font-weight-bolder">See for yourself.</span></h1>
+                <h1 class="font-weight-normal">Boot a fresh environment in <span class="font-weight-bolder">milliseconds.</span></h1>
+            </div>
+            <div class="col-sm-12 pb-5 text-center">
+                <button class="btn btn-outline-info py-4 w-50">CREATE A NEW PROJECT</button>
+            </div>
+        </div>
+
 
 
 

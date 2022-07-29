@@ -15,14 +15,18 @@ window.onscroll = (e) => {
 }
 
 
-let card1 = document.getElementById("card1").addEventListener("mouseover", mouseOver);;
+let card1 = document.getElementsByClassName(".card").addEventListener("mouseover", mouseOver);
 function mouseOver()
 {
   document.getElementById('readthe').classList.add('background-color-blue');
+  document.getElementById('readthe1').classList.add('background-color-blue');
+  document.getElementById('readthe2').classList.add('background-color-blue');
 }
 
-card1 = document.getElementById("card1").addEventListener("mouseout", mouseOut);;
+card1 = document.getElementsByClassName(".card").addEventListener("mouseout", mouseOut);;
 function mouseOut()
 {
   document.getElementById('readthe').classList.remove('background-color-blue');
+  document.getElementById('readthe1').classList.remove('background-color-blue');
+  document.getElementById('readthe2').classList.remove('background-color-blue');
 }
