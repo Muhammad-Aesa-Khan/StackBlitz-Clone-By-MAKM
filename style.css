@@ -79,3 +79,13 @@ a:hover {
     background-color: white !important;
 }
 
+#card1
+{
+    border: none;
+}
+
+.background-color-blue
+{
+    background-color: rgba(31, 31, 214, 0.808);
+    color: white;
+}
