@@ -1,0 +1,81 @@
+/* utilities class */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.background-color {
+  background-color: #1c1f25 !important;
+}
+
+.background-color-gary
+{
+    background-color: #f1f4f8;
+}
+
+.text-color,
+a {
+  color: #767679;
+}
+
+a:hover {
+  color: #a6a8aa;
+  text-decoration: none;
+  border: none !important;
+}
+
+.nav-tabs .nav-link:focus {
+  background-color: none !important;
+}
+
+.card {
+  background-color: #242830 !important;
+}
+.first-p-font-size {
+  font-size: 14px;
+}
+.p-font-size {
+  font-size: 12px;
+}
+
+/* gradient for background og some sections */
+
+.background-gradient {
+  background: #94226e;
+  background: -webkit-linear-gradient(to right, #29161f, #94226e);
+  background: linear-gradient(to right, #94226e, #29161f);
+}
+
+.no-bold
+{
+    font-weight: 350 !important;
+}
+
+.text-link
+{
+    color: blue;
+}
+
+.text-link:hover
+{
+    color: rgb(109, 109, 255);
+    text-decoration: underline;
+}
+
+.img-position
+{
+    position: relative;
+    margin-left: 50px;
+}
+
+.img-position-left
+{
+    position: relative;
+    margin-left: -50px;
+}
+
+.bg-white
+{
+    background-color: white !important;
+}
+
