@@ -8,9 +8,8 @@
   background-color: #1c1f25 !important;
 }
 
-.background-color-gary
-{
-    background-color: #f1f4f8;
+.background-color-gary {
+  background-color: #f1f4f8;
 }
 
 .text-color,
@@ -46,59 +45,49 @@ a:hover {
   background: linear-gradient(to right, #94226e, #29161f);
 }
 
-.no-bold
-{
-    font-weight: 350 !important;
+.no-bold {
+  font-weight: 350 !important;
 }
 
-.text-link
-{
-    color: blue;
+.text-link {
+  color: blue;
 }
 
-.text-link:hover
-{
-    color: rgb(109, 109, 255);
-    text-decoration: underline;
+.text-link:hover {
+  color: rgb(109, 109, 255);
+  text-decoration: underline;
 }
 
-.img-position
-{
-    position: relative;
-    margin-left: 50px;
+.img-position {
+  position: relative;
+  margin-left: 50px;
 }
 
-.img-position-left
-{
-    position: relative;
-    margin-left: -50px;
+.img-position-left {
+  position: relative;
+  margin-left: -50px;
 }
 
-.bg-white
-{
-    background-color: white !important;
+.bg-white {
+  background-color: white !important;
 }
 
-.card
-{
-    border: none;
-    overflow: hidden;
+.card {
+  border: none;
+  overflow: hidden;
 }
 
-.background-color-blue
-{
-    background-color: rgba(31, 31, 214, 0.808);
-    color: white;
-}
-
-.card:hover .readthe
-{
+.background-color-blue {
   background-color: rgba(31, 31, 214, 0.808);
   color: white;
 }
 
-.vector1
-{
+.card:hover .readthe {
+  background-color: rgba(31, 31, 214, 0.808);
+  color: white;
+}
+
+.vector1 {
   position: absolute;
   margin-left: 360px;
   margin-top: 60px;
@@ -106,8 +95,7 @@ a:hover {
   overflow: hidden;
 }
 
-.vector2
-{
+.vector2 {
   position: absolute;
   margin-left: 360px;
   margin-top: 60px;
@@ -115,11 +103,21 @@ a:hover {
   overflow: hidden;
 }
 
-.vector3
-{
+.vector3 {
   position: absolute;
   margin-left: 360px;
   margin-top: 60px;
   width: 80%;
   overflow: hidden;
+}
+
+.card-hover:hover {
+  border: 1px solid #33ffcc;
+}
+
+.viteconf {
+  -webkit-text-fill-color: #0000;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(130deg, #54c8fa 30%, #be1cfa 70%);
 }
