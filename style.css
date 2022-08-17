@@ -79,13 +79,47 @@ a:hover {
     background-color: white !important;
 }
 
-.card1
+.card
 {
     border: none;
+    overflow: hidden;
 }
 
 .background-color-blue
 {
     background-color: rgba(31, 31, 214, 0.808);
     color: white;
+}
+
+.card:hover .readthe
+{
+  background-color: rgba(31, 31, 214, 0.808);
+  color: white;
+}
+
+.vector1
+{
+  position: absolute;
+  margin-left: 360px;
+  margin-top: 60px;
+  width: 80%;
+  overflow: hidden;
+}
+
+.vector2
+{
+  position: absolute;
+  margin-left: 360px;
+  margin-top: 60px;
+  width: 80%;
+  overflow: hidden;
+}
+
+.vector3
+{
+  position: absolute;
+  margin-left: 360px;
+  margin-top: 60px;
+  width: 80%;
+  overflow: hidden;
 }
