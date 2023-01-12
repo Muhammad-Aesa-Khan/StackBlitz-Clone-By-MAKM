@@ -1,123 +1,127 @@
 /* utilities class */
+
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .background-color {
-  background-color: #1c1f25 !important;
+    background-color: #1c1f25 !important;
 }
 
 .background-color-gary {
-  background-color: #f1f4f8;
+    background-color: #f1f4f8;
 }
 
 .text-color,
 a {
-  color: #767679;
+    color: #767679;
 }
 
 a:hover {
-  color: #a6a8aa;
-  text-decoration: none;
-  border: none !important;
+    color: #a6a8aa;
+    text-decoration: none;
+    border: 1px solid transparent !important;
 }
 
 .nav-tabs .nav-link:focus {
-  background-color: none !important;
+    background-color: none !important;
 }
 
 .card {
-  background-color: #242830 !important;
+    background-color: rgb(39, 42, 48, 0.6) !important;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid transparent;
+    overflow: hidden;
 }
+
 .first-p-font-size {
-  font-size: 14px;
+    font-size: 14px;
 }
+
 .p-font-size {
-  font-size: 12px;
+    font-size: 12px;
 }
+
 
 /* gradient for background og some sections */
 
 .background-gradient {
-  background: #94226e;
-  background: -webkit-linear-gradient(to right, #29161f, #94226e);
-  background: linear-gradient(to right, #94226e, #29161f);
+    background: #94226e;
+    background: -webkit-linear-gradient(to right, #29161f, #94226e);
+    background: linear-gradient(to right, #94226e, #29161f);
 }
 
 .no-bold {
-  font-weight: 350 !important;
+    font-weight: 350 !important;
 }
 
 .text-link {
-  color: blue;
+    color: blue;
 }
 
 .text-link:hover {
-  color: rgb(109, 109, 255);
-  text-decoration: underline;
+    color: rgb(109, 109, 255);
+    text-decoration: underline;
 }
 
 .img-position {
-  position: relative;
-  margin-left: 50px;
+    position: relative;
+    margin-left: 50px;
 }
 
 .img-position-left {
-  position: relative;
-  margin-left: -50px;
+    position: relative;
+    margin-left: -50px;
 }
 
 .bg-white {
-  background-color: white !important;
-}
-
-.card {
-  border: none;
-  overflow: hidden;
+    background-color: white !important;
 }
 
 .background-color-blue {
-  background-color: rgba(31, 31, 214, 0.808);
-  color: white;
+    background-color: rgba(31, 31, 214, 0.808);
+    color: white;
 }
 
 .card:hover .readthe {
-  background-color: rgba(31, 31, 214, 0.808);
-  color: white;
+    background-color: rgba(31, 31, 214, 0.808);
+    color: white;
 }
 
 .vector1 {
-  position: absolute;
-  margin-left: 360px;
-  margin-top: 60px;
-  width: 80%;
-  overflow: hidden;
+    position: absolute;
+    margin-left: 360px;
+    margin-top: 60px;
+    width: 80%;
+    overflow: hidden;
 }
 
 .vector2 {
-  position: absolute;
-  margin-left: 360px;
-  margin-top: 60px;
-  width: 80%;
-  overflow: hidden;
+    position: absolute;
+    margin-left: 360px;
+    margin-top: 60px;
+    width: 80%;
+    overflow: hidden;
 }
 
 .vector3 {
-  position: absolute;
-  margin-left: 360px;
-  margin-top: 60px;
-  width: 80%;
-  overflow: hidden;
+    position: absolute;
+    margin-left: 360px;
+    margin-top: 60px;
+    width: 80%;
+    overflow: hidden;
 }
 
 .card-hover:hover {
-  border: 1px solid #33ffcc;
+    border: 1px solid #33ffcc;
+    background-color: rgba(0, 0, 0, 0) !important;
+    transform: translateY(-2px);
 }
 
 .viteconf {
-  -webkit-text-fill-color: #0000;
-  -webkit-background-clip: text;
-  background-clip: text;
-  background-image: linear-gradient(130deg, #54c8fa 30%, #be1cfa 70%);
+    -webkit-text-fill-color: #0000;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(130deg, #54c8fa 30%, #be1cfa 70%);
 }
