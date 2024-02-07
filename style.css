@@ -19,6 +19,10 @@ a {
     border: 1px solid transparent !important;
 }
 
+a {
+    border: 1px solid transparent !important;
+}
+
 a:hover {
     color: #a6a8aa;
     text-decoration: none;
