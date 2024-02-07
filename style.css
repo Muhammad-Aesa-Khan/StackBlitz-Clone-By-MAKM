@@ -16,6 +16,7 @@
 .text-color,
 a {
     color: #767679;
+    border: 1px solid transparent !important;
 }
 
 a:hover {
