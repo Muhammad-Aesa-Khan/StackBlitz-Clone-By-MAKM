@@ -89,33 +89,45 @@ a:hover {
     color: white;
 }
 
+.card .readthe{
+    box-shadow: inset 0 0 #fff;
+    transition: all 0.8s ease;
+}
+
 .card:hover .readthe {
-    background-color: rgba(31, 31, 214, 0.808);
+    box-shadow: inset 740px 0 rgba(31, 31, 214, 0.808);
     color: white;
 }
 
 .vector1 {
     position: absolute;
-    margin-left: 360px;
+    margin-left: 400px;
     margin-top: 60px;
     width: 80%;
     overflow: hidden;
+    transition: all 0.8s ease;
+}
+
+.card:hover .vector1 ,.card:hover .vector2, .card:hover .vector3{
+    margin-left: 450px;
 }
 
 .vector2 {
     position: absolute;
-    margin-left: 360px;
+    margin-left: 400px;
     margin-top: 60px;
     width: 80%;
     overflow: hidden;
+    transition: all 0.8s ease;
 }
 
 .vector3 {
     position: absolute;
-    margin-left: 360px;
+    margin-left: 400px;
     margin-top: 60px;
     width: 80%;
     overflow: hidden;
+    transition: all 0.8s ease;
 }
 
 .card-hover:hover {
